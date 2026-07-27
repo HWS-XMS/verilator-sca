@@ -1,0 +1,28 @@
+# Build output (CMake / Verilator)
+build/
+obj_dir/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.o
+*.d
+*.a
+
+# Python virtual environments / caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Simulation traces & captured data
+*.h5
+*.vcd
+*.fst
+
+# Logs
+*.log
+
+# Local tool config / OS
+.claude/settings.local.json
+.DS_Store
